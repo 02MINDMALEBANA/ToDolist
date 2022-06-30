@@ -1,0 +1,64 @@
+.input{
+    height: 30px;
+    border-radius: 10px;
+    padding: 30px;
+}
+#btn{
+    border-radius: 10px;
+    width:300px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    margin-left: 10px;
+
+}
+#name{
+    border-radius: 10px;
+    width:200px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    font-size: large;
+
+}
+#priority{
+    border-radius: 10px;
+    width:200px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    font-size: large;
+
+
+}
+#btn1{
+    border-radius: 0px;
+    width:100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: red;
+    margin-left: 30px;
+    margin-right: -25px;
+
+}
+#btn2{
+    border-radius: 0px;
+    width:100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: orange;
+    margin-left: 10px;
+
+}
+#btn3{
+    border-radius: 0px;
+    width:100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: green;
+    margin-left: 35px;
+
+}
+#h4{
+    margin-right: 10px;
+}

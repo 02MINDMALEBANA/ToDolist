@@ -1,0 +1,74 @@
+.ToDoList{
+    /* display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    color: black;
+    width: 800px;
+    height: 70px;
+    margin-top: 5px;
+    background-color: aquamarine; */
+    /* border-style: solid; */
+    
+
+}
+.ToDoList div:nth-child(1){
+    width: 150px;
+}
+
+.h5{
+   padding-top: 20px;
+}
+.High{
+    border-right: 10px solid red;
+    padding-top: 50px;
+}
+.Medium{
+
+    border-right: 10px solid orange;
+    padding-top: 50px;
+}
+.Low{
+    border-right: 10px solid green; 
+    padding-top: 50px;
+}
+.head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: black;
+    font-size: medium;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.main-div{
+    width: 1030px;
+   background-color: aquamarine;
+   border-radius: 10px;
+   border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.task-div{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+}
+
+.task-div div:nth-child(3){
+   height: 5px;
+   /* background-color: yellow; */
+   width: 100px;
+}
+.task-div div:nth-child(4){
+    height: 5px;
+    width: 100px;
+ }
+.task-div > div{
+    text-align: center;
+}
+.time{
+    margin-left: 47%;
+    margin-top: -8%;
+}
+.date{
+    margin-left: 67%;
+    margin-top: -4%;
+}
