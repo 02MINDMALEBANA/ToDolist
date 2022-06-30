@@ -35,7 +35,7 @@ function App() {
  
   return (
 
-    <Router>
+    <Router basename='ToDolist'>
 
       <Switch>
         <Route exact path="/" component={Login}></Route>
