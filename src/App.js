@@ -9,10 +9,9 @@ import moment from 'moment'
 import Home from './inputs/home';
 import Login from './inputs/login';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import { render } from '@testing-library/react';
+
 
 function App() {
-
 
   const [tasks, setTasks]=useState([]);
 
@@ -33,25 +32,22 @@ function App() {
     }])
     console.log(tasks)
   })
-  render (); {
-    return (
+ 
+  return (
 
-      <Router>
+    <Router>
+
       <Switch>
-        <Route exact path="/ToDolist" component={Login}></Route>
+        <Route exact path="/" component={Login}></Route>
         <Route path="/home">
         <Home list={tasks} add={addTasks}/>
-  
-        </Route>
-      </Switch>
-      
-    </Router>
-  
-    );
 
-  }
- 
+      </Route>
+    </Switch>
+    
+  </Router>
 
+  );
 }
 
 export default App;
